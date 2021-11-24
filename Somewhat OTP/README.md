@@ -610,7 +610,7 @@ so i xored the first 8 bytes:
 ```
 00 89 89 89 89 89 89 89
 ```
-but when trying to xor it fails.
+but when trying to xor the whole file it fails.
 after alot of trial and error i noticed every 16 bytes the dominant hex value changes, for example:
 ```
 89 d9 c7 ce 84 83 93 83 89 89 89 84 c0 c1 cd db - 89
@@ -619,7 +619,7 @@ after alot of trial and error i noticed every 16 bytes the dominant hex value ch
 bd 1a 2e bd bd bd b4 cd f5 e4 ce bd bd 93 9e bd - bd
 00 2e 23 01 78 a5 3f 76 00 00 00 07 74 49 4d 45 - 00
 ```
-so i wrote this python script to construct a changing xor key where every 16 bytes the key changes according to the first bytes in the sequence:
+so i wrote this python script to construct a changing xor key where every 16 bytes the key changes according to the first byte in the sequence:
 ```ruby
 with open('file', 'r') as file:
 bytes_list = file.read().split(' ')
