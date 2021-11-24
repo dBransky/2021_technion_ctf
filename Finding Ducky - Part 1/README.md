@@ -4,4 +4,5 @@ Ducky is missing! A few days ago ducky tweeted that he is on to something big..a
 
 Note: The flag is cstechnion{<name of city>}.
 we get this image:
-![Image](../finding_ducky_pt_1.png)
+![finding_ducky_pt_1](https://user-images.githubusercontent.com/79902268/143191235-3203b1b5-b208-42df-bb0f-8e2957a8008b.png)
+
