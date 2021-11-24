@@ -7,6 +7,6 @@ After a bit  googling i find this is a cipher known as "Elder Futhark"
 and manage to decipher the following text:  
 **CSTECHNION{DUCFNAROF_IS_COMING}** 
 so i tried to input the flag but with no success  
-since this is a Duck themed ctf i changed the *F* with *K* and received the solution:  
+since this is a Duck themed ctf i changed the **F** with **K** and received the solution:  
 **CSTECHNION{DUCKNAROK_IS_COMING}** 
 (refrence to norse methology)
