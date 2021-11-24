@@ -602,7 +602,7 @@ m>a....¯=~p§ø..ìííUÁ.opppppp......`;..¸µZ.	.&.....¦=.HÆä£-.£BR.S.*
 ```
 
 </details>
-according to the offical png dicumntaion every png formatted file starts with the follwing bytes:  
+according to the offical png documentation every png formatted file starts with the follwing bytes:  
 ```
-asd
+89  50  4e  47  0d  0a  1a  0a
 ```
