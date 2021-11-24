@@ -9,4 +9,4 @@ and manage to decipher the following text:
 so i tried to input the flag but with no success  
 since this is a Duck themed ctf i changed the *F* with *K* and received the solution:  
 **CSTECHNION{DUCKNAROK_IS_COMING}** 
-
+(refrence to norse methology)
